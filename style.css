@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    border: 2px solid red;
+    height: 100%;
+    background:linear-gradient(to top,white,white,white, white,white, #9deb95,#6bbdf3, #b458b4,#da6d25)
+
+}
+
+/*inicio do cabecalho*/
+header{
+    width: 80%;
+    margin: 0 auto;
+    height: 40px;
+    background: #66ff00;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nome{
+    width: 35%;
+    background: yellow;
+}
+
+.menu{
+    width: 52%;
+    background: #b9b9bd;   
+
+}
+
+.menu ul li{
+    float: left;
+    text-decoration: none;
+    list-style: none;
+    padding: 0 25px;       
+
+}
+
+.clear{
+    clear: both;
+}
+
+
+/*final do cabecalho*/
+
+/*inicio do corpo*/
+section{
+    width: 80%;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.foto{
+    width: 30%;
+    background: #6bbdf3;
+}
+
+.texto{
+    width: 50%;
+    background: #6bbdf3;
+}
+
+.redes{
+    width: 10%;
+    background: #6bbdf3;
+}
